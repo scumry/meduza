@@ -1,0 +1,79 @@
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+body {
+    background-color: black;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  min-height: 100%;
+  overflow: hidden;
+}
+header .hz {
+  display: inline-block;
+  padding-top: 40px;
+}
+
+header .logo {   
+  display: inline-block;
+}
+header .buttons {
+  display: inline-block;
+  padding-left: 290px;
+  word-spacing: 30px
+}
+header a {
+  font-size: 15px;
+  font-weight: bolder;
+}
+header a:hover {
+  color:#A37846;
+  padding-top: 30px;
+}
+.switch-btn {
+  display: inline-block;
+  width: 48px; /* ширина переключателя */
+  height: 24px; /* высота переключателя */
+  border-radius: 8px; /* радиус скругления */
+  background: #686868; /* цвет фона */
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  position: relative;
+
+}
+.switch-btn::after {
+  content: "";
+  height: 24px; /* высота кнопки */
+  width: 24px; /* ширина кнопки */
+  border-radius: 18px; /* радиус кнопки */
+  background: rgb(114, 114, 114); /* цвет кнопки */
+  top: -1,5px; /* положение кнопки по вертикали относительно основы */
+  position: absolute;
+  z-index: 1;
+}
+.switch-on {
+  background: rgb(146, 146, 146);
+
+}
+.switch-on::after {
+  left: 30px;
+  background: #ffffff; /* krug */
+}
+.section-one {   
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bolder;
+  margin-right: 160px;
+  color: #FFFFFF;
+}
